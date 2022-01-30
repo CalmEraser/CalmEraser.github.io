@@ -1,0 +1,236 @@
+
+body{
+    color:black;
+    padding-top: 100px ;
+    padding-left: 0;
+    margin-left: 0;
+    
+}
+
+h1:hover{
+    margin:10px;
+    width:20%;
+    height:20%;
+    font-family: Great Vibes, 'Times New Roman', Times, serif, cursive;
+    border:blue;
+    color:white;
+    background-color: black;
+    border-radius: 20cm;
+    border-color:black;
+    border-width: 3px;
+    border-style:solid;
+    text-align: center;
+    margin: 5px;
+    padding: 5px 0px;
+       
+}
+
+h1{
+    width: 20%;
+    margin:10px;
+    height:20%;
+    font-family: Great Vibes, 'Times New Roman', Times, serif, cursive;
+    font-size: 2em;
+    border: 3px solid black;
+    cursor:-moz-grabbing;
+    color:black;
+    background-color: white;
+    border-radius:20cm;
+    transition: all 0.25s;
+    margin: 5px;
+    padding: 5px 0px;
+    text-align: center;
+
+}
+@media(max-width: 768px){
+    h1{
+        font-size: 2em;
+        width: 30%;
+    }
+    nav, nav ul{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media(max-width: 576px){
+    h1{
+        font-size: 2em;
+        width: 30%;
+    }
+
+}
+
+nav {
+    font-size: 1.2em;
+    display: flex;
+    justify-content:space-between;}
+
+p{
+    font-family:monospace;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+h3{ 
+    color: white;
+    font-weight: 200;
+    margin:0;
+    padding: 0;
+    line-height: 2;
+    display: block;
+    overflow-x: hidden;
+}
+.ink{
+background-color:black;
+text-align: start;
+margin-right: 50%;
+border: 0px 5px 5px 10px;
+border-radius: 0px 50px 50px 0px;
+}
+.color{
+    background-color: black;
+    text-align: end;
+    margin-left: 50%;
+    border: 0px 5px 5px 10px;
+    border-radius: 50px 0px 0px 50px;
+    }
+
+li a{
+    padding: 10px;
+    color:black;
+}
+button:hover {
+    color:white;
+    background-color: blue;
+}
+button:active{
+    background-color: crimson;
+}
+.psb{
+    display: none;
+}
+
+.sidebar{
+    float: right;
+    width: 5%;
+    position: relative;
+    height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+    color:white;
+    background-color: black;
+  
+}
+
+
+#title{
+    border:blue;
+    border-color:white;
+    border-width: 5px;
+    border-style:solid;
+    border-radius: 20cm;
+}
+
+img{
+    border-image: 10px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color:white;
+    border-width: 5px;
+    padding: 0;
+}
+
+img:hover{
+    border:1px white;
+    border-style:solid;
+    background-color: white;
+    transition: all 0.2s;
+}
+
+input[type="text"]{
+    width:220px;
+    height: 20px;
+}
+
+.idraw{
+    display: flex;
+    justify-content: flex-start;
+}
+.inked{
+    padding:25px;
+    text-align: center;
+    margin: 20px auto;
+}
+.cdraw{
+    display: flex;
+    justify-content: flex-start;
+}
+.colored
+{
+        padding:25px;
+        text-align: center;
+        margin: 20px auto;
+    }
+.kd{
+    background-image: url("imgs/kingdombg.png");
+    background-repeat: no-repeat;
+}
+.mha1{
+    background-image: url("imgs/stainbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.opm1{
+    background-image: url("imgs/garoubg.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size:89%;
+}
+
+.opmx{
+    background-image: url("imgs/garoubg3.png");
+    background-repeat: no-repeat;
+    background-position-x: left;}
+
+.idtitle{
+    font-weight: 200;
+    paddding:0;
+    margin: 0;
+}
+#email{
+    width: 20%;
+    height: 1.8em;
+    border: 3px black;
+    border-radius: 10cm;
+    border-style: solid;
+}
+#emailbutton{
+    width: 8%;
+    height: 2em;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border:3px solid black;
+    cursor: pointer;
+    color:black;
+    background-color:white;
+    border-radius:10cm;
+
+}
+#emailbutton:hover{
+    width: 8%;
+    height: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border:2px solid white;
+    cursor: pointer;
+    color:white;
+    background-color:black;
+    border-radius:10cm;
+    box-shadow: 0px px 2px -0.4px white;
+    transition: all 0.10s;
+}
+.navbar.scrolled{
+    background-color:white;
+
+}
