@@ -9,8 +9,8 @@ body{
 
 h1:hover{
     margin:1em;
-    width:20em;
-    height:20em;
+    width:2em;
+    height:2em;
     font-family: Great Vibes, 'Times New Roman', Times, serif, cursive;
     border:blue;
     color:white;
@@ -26,9 +26,9 @@ h1:hover{
 }
 
 h1{
-    width: 20em;
+    width: 2em;
     margin:1em;
-    height:20em;
+    height:2em;
     font-family: Great Vibes, 'Times New Roman', Times, serif, cursive;
     font-size: 2em;
     border: 3px solid black;
